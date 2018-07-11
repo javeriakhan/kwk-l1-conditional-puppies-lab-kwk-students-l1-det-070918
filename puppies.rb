@@ -6,6 +6,7 @@ loop do
   puts "Ooooh, watch me, watch me"
   puts "Ooooh, watch me, watch me"
   puts "Ooooh, watch me, watch me"
+  break
 end
 
 puts "Do the stanky leg"
