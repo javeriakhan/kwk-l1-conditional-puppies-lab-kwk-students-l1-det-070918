@@ -1,5 +1,10 @@
-counter = 
+counter = 0
 loop do
-  counter = counter + 1 
+  counter += 1 
   
-puts "Iteration #"
+puts "Iteration #{counter} of the loop"
+
+if counter >= 10 
+  break
+end
+end
